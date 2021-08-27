@@ -1,0 +1,1 @@
+client-gen --go-header-file="./hack/boilerplate.go.txt" --clientset-path="./" --clientset-api-path="/api" --clientset-name="versioned" --input="pager/v1alpha1" --input-base="github.com/hchenc/pager/pkg/apis" --output-base="./" --output-package="client/clientset" --output-file-base="./pkg"
