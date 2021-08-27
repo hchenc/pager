@@ -1,0 +1,20 @@
+# permissions for end users to view pagers.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: pager-viewer-role
+rules:
+- apiGroups:
+  - devops.efunds.com
+  resources:
+  - pagers
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - devops.efunds.com
+  resources:
+  - pagers/status
+  verbs:
+  - get

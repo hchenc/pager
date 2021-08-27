@@ -1,0 +1,7 @@
+apiVersion: devops.efunds.com/v1alpha1
+kind: Pager
+metadata:
+  name: pager-sample
+spec:
+  # Add fields here
+  foo: bar

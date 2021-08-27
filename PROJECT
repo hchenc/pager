@@ -1,0 +1,7 @@
+domain: efunds.com
+repo: github.com/hchenc/pager
+resources:
+- group: devops
+  kind: Pager
+  version: v1alpha1
+version: "2"
